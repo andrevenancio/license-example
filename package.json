@@ -1,0 +1,20 @@
+{
+    "name": "license-example",
+    "version": "0.0.1",
+    "description": "",
+    "main": "src/test1.js",
+    "scripts": {
+        "dev": "webpack --config webpack.development.js",
+        "prod": "webpack --config webpack.production.js",
+        "prod2": "webpack --config webpack.production-2.js",
+        "start": "npm run dev&&npm run prod&&npm run prod2"
+    },
+    "dependencies": {
+        "gl-matrix": "^2.6.1"
+    },
+    "devDependencies": {
+        "uglifyjs-webpack-plugin": "^1.2.5",
+        "webpack": "^4.8.2",
+        "webpack-cli": "^2.1.3"
+    }
+}
